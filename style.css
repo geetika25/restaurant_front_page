@@ -1,0 +1,36 @@
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding:0 100px;
+	background: gray;
+	width: 100%;
+	height:15%;
+	box-sizing: border-box;
+}
+header .logo{
+	color:white;
+	margin-top:30px;
+	font-size:25px; 
+	float: left;
+}
+header nav{
+	float:right;
+	color:white;
+}
+header nav ul{
+	display:flex;
+}
+header nav ul li a{
+	height:50px;
+	line-height:50px;
+	color: white;
+	text-decoration:none;
+
+	padding-left:30px;
+	padding-right:10px;
+}
+header nav ul li{
+	list-style:none;
+	font-size:20px;
+}
