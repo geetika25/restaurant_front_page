@@ -5,7 +5,7 @@ header{
 	padding:0 100px;
 	background: gray;
 	width: 100%;
-	height:15%;
+	height:17%;
 	box-sizing: border-box;
 }
 header .logo{
@@ -26,6 +26,7 @@ header nav ul li a{
 	line-height:50px;
 	color: white;
 	text-decoration:none;
+	display:block;
 
 	padding-left:30px;
 	padding-right:10px;
@@ -34,3 +35,20 @@ header nav ul li{
 	list-style:none;
 	font-size:20px;
 }
+header nav ul li a:hover{
+	color:white;
+	background:black;
+}
+
+
+
+
+
+body{
+	margin: 0;
+	padding:0;
+	font-family:sans-serif;
+	
+}
+
+
